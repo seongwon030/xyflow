@@ -1,5 +1,15 @@
 # @xyflow/react
 
+## 12.11.2
+### Patch Changes
+
+
+
+- [#5825](https://github.com/xyflow/xyflow/pull/5825) [`5072914`](https://github.com/xyflow/xyflow/commit/5072914791f89d99e4484f1d36c9b6781a0a2c36) - Only create an `XYDrag` instance for draggable nodes. A non-draggable node no longer allocates one on mount, so static and read-only graphs pay nothing for drag setup (the saving scales with the number of non-draggable nodes). Draggable nodes are unaffected.
+
+- Updated dependencies [[`0c0cebc`](https://github.com/xyflow/xyflow/commit/0c0cebc08cc34d2852d1ea429df638732b3edf68), [`cdfcbeb`](https://github.com/xyflow/xyflow/commit/cdfcbeb9618437b2e7c35336db157e36a5a0731e)]:
+  - @xyflow/system@0.0.79
+
 ## 12.11.1
 ### Patch Changes
 

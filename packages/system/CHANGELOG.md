@@ -1,5 +1,16 @@
 # @xyflow/system
 
+## 0.0.79
+### Patch Changes
+
+
+
+- [#5839](https://github.com/xyflow/xyflow/pull/5839) [`0c0cebc`](https://github.com/xyflow/xyflow/commit/0c0cebc08cc34d2852d1ea429df638732b3edf68) - Use correct fill color for bg pattern in dark mode
+
+
+
+- [#5837](https://github.com/xyflow/xyflow/pull/5837) [`cdfcbeb`](https://github.com/xyflow/xyflow/commit/cdfcbeb9618437b2e7c35336db157e36a5a0731e) - Check for element existence and type before checking property existence in node/edge typeguards.
+
 ## 0.0.78
 ### Patch Changes
 
